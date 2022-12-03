@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/1017b7cb-3009-45d6-8095-7370efe00b93/AppServices/subscriptions/1017b7cb-3009-45d6-8095-7370efe00b93/resourceGroups/himanshutodolist_group/providers/Microsoft.Web/sites/himanshutodolist",
+    "appService.deploySubpath": "."
+}
