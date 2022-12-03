@@ -21,7 +21,7 @@ const itemsSchema = new mongoose.Schema({
 const Item = mongoose.model("Item", itemsSchema);
 
 const item1 = new Item({
-    name: "Welcome to your todolist!"
+    name: "Welcome to your todolist"
 });
 
 const item2 = new Item({
@@ -112,7 +112,7 @@ app.post("/delete", function (req, res) {
     if (listName === "Today") {
         Item.findByIdAndRemove(checkedItemId, function (err) {
             if (!err) {
-                console.log("Successfully deleted checked item.");
+                console.log("Successfully deleted checked items.");
                 res.redirect("/");
             }
         });
